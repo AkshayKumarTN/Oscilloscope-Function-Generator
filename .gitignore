@@ -1,0 +1,10 @@
+# Ignore compiled binaries and intermediate files
+*.exe
+*.obj
+*.pdb
+*.dll
+*.lib
+*.log
+*.tmp
+*.bak
+build/
