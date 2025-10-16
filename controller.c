@@ -11,6 +11,7 @@
 void initializeDevice(FT_HANDLE *ftHandle);
 void controlLED(FT_HANDLE ftHandle);
 void sendMorseCode(FT_HANDLE ftHandle);
+void sendtestCode(FT_HANDLE ftHandle);
 
 int main() {
 
@@ -52,6 +53,8 @@ int main() {
                 controlLED(ftHandle);
                 break;
             case 2:
+                printf("Sending Morse Code for 'SOS'\n");
+                sendtestCode(ftHandle);
                 sendMorseCode(ftHandle);
                 break;
             case 3:

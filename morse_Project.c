@@ -78,3 +78,8 @@ void sendMorseCode(FT_HANDLE ftHandle) {
     }
     printf("\nMorse code message sent.\n");
 }
+
+
+void sendtestCode(FT_HANDLE ftHandle) {
+    printf("Your message is being sent in Morse code...\n");
+}
