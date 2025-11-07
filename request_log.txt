@@ -1,5 +1,0 @@
-[2025-10-20 16:39:14] WRITE | Data: 0x00 | Bytes: 1 | Status: SUCCESS
-[2025-10-20 16:40:40] WRITE | Data: 0x00 | Bytes: 1 | Status: SUCCESS
-[2025-10-20 16:41:18] WRITE | Data: 0xFF | Bytes: 1 | Status: SUCCESS
-[2025-10-20 16:41:22] WRITE | Data: 0xFF | Bytes: 1 | Status: SUCCESS
-[2025-10-20 16:41:23] READ | Data: 0x01 | Bytes: 1 | Status: SUCCESS

@@ -77,9 +77,9 @@ C:\Windows\System32>d:
 
 cd "D:\Stevens\Course\SSW 565 Software Architecture\Final Project - New\Oscilloscope-Function-Generator"
 
-cl /EHsc /std:c++14 controller_cpp.cpp ReqWrite.cpp ReqRead.cpp MorseCode.cpp ftd2xx.lib /Fe:controller_new.exe
+cl /EHsc /std:c++14 main.cpp ReqWrite.cpp ReqRead.cpp MorseCode.cpp ftd2xx.lib /Fe:oscilloscope.exe
 
-controller_new.exe
+oscilloscope.exe
 
 
 ----------------------------------------------------------------------------------
